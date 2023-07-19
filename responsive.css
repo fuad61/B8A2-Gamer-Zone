@@ -10,9 +10,13 @@
     .item-container a{
         margin: 20px 0;
 }
+.icon-top{
+    padding: auto;
+}
 .item-container a{
     font-size: 14px;
 }
+
 .goat{
     font-size: 50px;
 }
@@ -37,8 +41,8 @@
 .online-games{
     grid-template-columns: repeat(1, 1fr);
 }
-.play-game{
-    flex-direction: column;
+.play-games{
+    flex-direction: column-reverse;
 }
 .image-play-game{
  width: 100%;
@@ -46,4 +50,25 @@
 .play-game-content{
     width: 100%;
 }
+.position img{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    width: 160px;
+    height: 180px;
+    
+}
+.button-container{
+    flex-direction: column;
+    
+    
+}
+.button-container button{
+    width: 200px;
+}
+
+
+
+
+
 }
