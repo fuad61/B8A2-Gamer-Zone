@@ -1,8 +1,10 @@
 @media screen and (max-width:576px) {
     .nav-container{
+        display: flex;
         flex-direction: column;
     }
     .item-container{
+        display: flex;
         flex-direction: column;
         
     }
@@ -24,6 +26,7 @@
     font-size: 25px;
 }
 .banner-container{
+    display: flex;
    flex-direction: column-reverse;
 }
 .text-container{
@@ -36,12 +39,15 @@
     margin-top: 20px;
 }
 .we-gamer{
+    display: flex;
     flex-direction: column;
 }
 .online-games{
     grid-template-columns: repeat(1, 1fr);
 }
+
 .play-games{
+    display: flex;
     flex-direction: column-reverse;
 }
 .image-play-game{
@@ -54,21 +60,52 @@
     position: relative;
     bottom: 150px;
     left: 200px;
-    width: 160px;
+    width: 40%;
     height: 180px;
+
     
 }
 .button-container{
-    flex-direction: column;
+    height: 100%;
+    display: flex;
+    
+    gap: 10px;
     
     
 }
 .button-container button{
-    width: 200px;
+    /* width: 200px; */
+    width: 80px;
+    gap: 2px;
+   
+    
+
+
+
+
+
+}
+.button-container img{
+    width: 30px;
 }
 
 
-
-
+.footer-header-container{
+    width: 100%;
+    flex-direction: column;
+   
+}
+.footer-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.footer-text-container{
+    
+    flex-wrap: wrap;
+    margin: auto;
+}
 
 }
