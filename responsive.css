@@ -31,7 +31,19 @@
     margin-bottom: 20px;
     margin-top: 20px;
 }
+.we-gamer{
+    flex-direction: column;
+}
 .online-games{
     grid-template-columns: repeat(1, 1fr);
+}
+.play-game{
+    flex-direction: column;
+}
+.image-play-game{
+ width: 100%;
+}
+.play-game-content{
+    width: 100%;
 }
 }

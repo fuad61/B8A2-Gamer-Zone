@@ -152,3 +152,37 @@ font-family: 'Work Sans', sans-serif;
     
 
 }
+.play-games{
+    max-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;padding-top: 100px;
+   
+}
+.image-play-game{
+    width: 55%;
+    border: 1px solid red;
+   
+}
+.play-game-content{
+    width: 50%;
+    padding-bottom: 200px;
+    border: 1px solid saddlebrown;
+}
+.image-play-game img{
+    width: 80%;
+    height: 100%;
+}
+.image--1{
+    
+}
+
+.position img{
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+    border: 0;
+    width: 200px;
+    height: 220px;
+}
