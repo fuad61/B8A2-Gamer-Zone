@@ -108,7 +108,21 @@ font-family: 'Work Sans', sans-serif;
     margin: 10px;
     margin-left: 5px;
 }
+.b-btn-2{
+    padding: 10px 15px;
+    background: aqua;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    margin-left: 5px;
+}
+
 .b-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.b-btn-2 a{
     text-decoration: none;
     color: white;
     font-size: 18px;
