@@ -250,7 +250,7 @@ font-family: 'Work Sans', sans-serif;
 
 .card:hover{
     background-color: #3C354F;
-    transition: 3s ease;
+    transition: 2s ease;
     transform: translate(-50%, -50%);
     color: white;
     

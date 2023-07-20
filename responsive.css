@@ -115,6 +115,14 @@
     width: 100%;
     padding-top: 50px;
 }
+.card:hover{
+    background-color: #3C354F;
+    transition: 2s ease;
+    transform: translate(-0%, -50%);
+    color: white;
+    
+
+}
 }
 
 
