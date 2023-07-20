@@ -71,19 +71,19 @@
     height: 100%;
     display: flex;
     
-    gap: 10px;
+    gap: 30px;
     
     
 }
 .button-container button{
-    /* width: 200px; */
-    width: 80px;
-    gap: 2px;
-
-
-
-
-
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+   
+    width: 20%;
+    gap:10px;
+    border-radius: 20px;
+    border: none;
 }
 .button-container img{
     width: 30px;
